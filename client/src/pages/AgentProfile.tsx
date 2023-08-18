@@ -23,7 +23,7 @@ const AgentProfile = () => {
     <Profile
       type="Agent"
       name={myProfile.name}
-      email={myProfile.email}
+      // email={myProfile.email}
       avatar={myProfile.avatar}
       properties={myProfile.allProperties}
     />

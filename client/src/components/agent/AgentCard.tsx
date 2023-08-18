@@ -87,10 +87,10 @@ const AgentCard = ({
           alignItems="center"
           gap={2}
         >
-          <InfoBar
+          {/* <InfoBar
             icon={<EmailOutlined sx={{ color: "#808191" }} />}
             name={email}
-          />
+          /> */}
           <InfoBar icon={<Place sx={{ color: "#808191" }} />} name="London" />
           <InfoBar
             icon={<Phone sx={{ color: "#808191" }} />}

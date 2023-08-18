@@ -14,7 +14,7 @@ function checkImage(url: any) {
   return img.width !== 0 && img.height !== 0;
 }
 
-const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => (
+const Profile = ({ type, name, avatar, properties }: ProfileProps) => (
   <Box>
     <Typography fontSize={25} fontWeight={700} color="#11142D">
       {type} Profile
@@ -123,9 +123,9 @@ const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => (
                       gap="10px"
                     >
                       <Email sx={{ color: "#11142D" }} />
-                      <Typography fontSize={14} color="#11142D">
+                      {/* <Typography fontSize={14} color="#11142D">
                         {email}
-                      </Typography>
+                      </Typography> */}
                     </Box>
                   </Stack>
                 </Stack>
